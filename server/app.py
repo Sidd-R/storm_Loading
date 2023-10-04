@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello llllllWorld!'
+    return 'Hellod!'
 UPLOAD_FOLDER = 'static'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
